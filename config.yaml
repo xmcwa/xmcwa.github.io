@@ -128,10 +128,10 @@ params:
             siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
         giscus:
-            repo: galaxy080123/hugo-blog
-            repoID: "R_kgDOI_ucCQ"
+            repo: galaxy080123/jlgxy-blog
+            repoID: "R_kgDOJkf02g"
             category: "Announcements"
-            categoryID: "DIC_kwDOI_ucCc4CUTrO"
+            categoryID: "DIC_kwDOJkf02s4CWkaT"
             mapping: "pathname"
             lightTheme: ""
             darkTheme: ""
