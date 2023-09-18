@@ -8,12 +8,12 @@ languages:
     en:
         languageName: English
         title: JLGxy's Blog
-        description: Grade 9 OIer
+        description: Grade 10 OIer
         weight: 2
     zh-cn:
         languageName: 中文
         title: JLGxy's Blog
-        description: 初三 OIer
+        description: 高一 OIer / SDSZ
         weight: 1
     # ar:
     #     languageName: عربي
@@ -57,7 +57,7 @@ params:
 
     sidebar:
         emoji: 📑
-        subtitle: 初三 OIer
+        subtitle: 高一 OIer
         avatar:
             enabled: true
             local: true

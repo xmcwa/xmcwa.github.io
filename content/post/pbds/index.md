@@ -8,11 +8,12 @@ categories:
     - programming
 tags:
     - STL
+    - Data Structure
 ---
 
 ## 一、可持久化平衡树 rope
 
-gcc 提供了一种 $O(n\sqrt n)$ 的数据结构（内部用块状链表实现），可以当作可持久化平衡树。
+gcc 提供了一种 $O(n\\sqrt n)$ 的数据结构（内部用块状链表实现），可以当作可持久化平衡树。
 
 ### 1. 声明
 
@@ -108,7 +109,7 @@ reverse_iterator mutable_rend()
 ### 4. 可持久化
 
 
-可以用以下方法实现 $\textrm O(1)$ 可持久化
+可以用以下方法实现 $\\textrm O(1)$ 可持久化
 ```
 rope<T> *rp[p];
 rp[0] = new rope<T>();			// 创建一个新的版本
@@ -166,7 +167,7 @@ __gnu_pbds::priority_queue<int> p, q;
   ...
 p.join(q);
 ```
-其中 `pairing_heap` 合并的复杂度是 $\textrm O(\log n)$ 的，此时优先队列 `q` 内所有元素就被合并进优先队列 `p` 中，且优先队列 `q` 被清空。
+其中 `pairing_heap` 合并的复杂度是 $\\textrm O(\\log n)$ 的，此时优先队列 `q` 内所有元素就被合并进优先队列 `p` 中，且优先队列 `q` 被清空。
 
 `split` 函数比较复杂，原型如下：
 ```cpp
@@ -181,12 +182,12 @@ inline void split(Pred prd, priority_queue &other)
 
 |/|push|pop|modify|erase|join|
 |---|---|---|---|---|---|
-| `std::priority_queue` | $\textrm O(n)$ worst, $\textrm O(\log n)$ amortized | $\textrm O(\log n)$ | $\textrm O(n\log n)$ | $\textrm O(n\log n)$ | $\textrm O(n\log n)$ |
-| `pairing_heap_tag` | $\textrm O(1)$ | $\textrm O(n)$ worst, $\textrm O(\log n)$ amortized | $\textrm O(n)$ worst, $\textrm O(\log n)$ amortized | $\textrm O(n)$ worst, $\textrm O(\log n)$ amortized | $\textrm O(1)$ |
-| `binary_heap_tag` | $\textrm O(n)$ worst, $\textrm O(\log n)$ amortized | $\textrm O(n)$ worst, $\textrm O(\log n)$ amortized | $\textrm O(n)$ | $\textrm O(n)$ | $\textrm O(n)$ |
-| `binomial_heap_tag` | $\textrm O(\log n)$ worst, $\textrm O(1)$ amortized | $\textrm O(\log n)$ | $\textrm O(\log n)$ | $\textrm O(\log n)$ | $\textrm O(\log n)$ |
-| `rc_binomial_heap_tag` | $\textrm O(1)$ | $\textrm O(\log n)$ | $\textrm O(\log n)$ | $\textrm O(\log n)$ | $\textrm O(\log n)$ |
-| `thin_heap_tag` | $\textrm O(1)$ | $\textrm O(n)$ worst, $\textrm O(\log n)$ amortized | $\textrm O(\log n)$ worst, $\textrm O(1)$ amortized | $\textrm O(n)$ worst, $\textrm O(\log n)$ amortized | $\textrm O(n)$ |
+| `std::priority_queue` | $\\textrm O(n)$ worst, $\\textrm O(\\log n)$ amortized | $\\textrm O(\\log n)$ | $\\textrm O(n\\log n)$ | $\\textrm O(n\\log n)$ | $\\textrm O(n\\log n)$ |
+| `pairing_heap_tag` | $\\textrm O(1)$ | $\\textrm O(n)$ worst, $\\textrm O(\\log n)$ amortized | $\\textrm O(n)$ worst, $\\textrm O(\\log n)$ amortized | $\\textrm O(n)$ worst, $\\textrm O(\\log n)$ amortized | $\\textrm O(1)$ |
+| `binary_heap_tag` | $\\textrm O(n)$ worst, $\\textrm O(\\log n)$ amortized | $\\textrm O(n)$ worst, $\\textrm O(\\log n)$ amortized | $\\textrm O(n)$ | $\\textrm O(n)$ | $\\textrm O(n)$ |
+| `binomial_heap_tag` | $\\textrm O(\\log n)$ worst, $\\textrm O(1)$ amortized | $\\textrm O(\\log n)$ | $\\textrm O(\\log n)$ | $\\textrm O(\\log n)$ | $\\textrm O(\\log n)$ |
+| `rc_binomial_heap_tag` | $\\textrm O(1)$ | $\\textrm O(\\log n)$ | $\\textrm O(\\log n)$ | $\\textrm O(\\log n)$ | $\\textrm O(\\log n)$ |
+| `thin_heap_tag` | $\\textrm O(1)$ | $\\textrm O(n)$ worst, $\\textrm O(\\log n)$ amortized | $\\textrm O(\\log n)$ worst, $\\textrm O(1)$ amortized | $\\textrm O(n)$ worst, $\\textrm O(\\log n)$ amortized | $\\textrm O(n)$ |
 
 ## 三、Associative Container
 
