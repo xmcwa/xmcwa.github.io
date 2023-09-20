@@ -32,7 +32,7 @@ tags:
 + 恒等函数 $id_k(n)=n^k$，$id_1(n)$ 简记为 $id(n)$
 + 常数函数 $1(n)=1$
 + 除数函数 $\\sigma_k(n)=\\sum_{d\\mid n}d^k$，$\\sigma_0(n)$ 简记为 $d(n)$，$\\sigma_1(n)$ 简记为 $\\sigma(n)$
-+ 欧拉函数 $\\varphi(n)=\\sum_{i=1}^n[gcd(i,n)=1]$
++ 欧拉函数 $\\varphi(n)=\\sum_{i=1}^n[\\gcd(i,n)=1]$
 + 莫比乌斯函数 $\\mu(n)=\\begin{cases}1&n=1\\\\0&\\exists d>1,d^2\\mid n\\\\(-1)^{\\omega(n)}&\\text{otherwise}\\end{cases}$
 
 ### Dirichlet 卷积
@@ -184,9 +184,9 @@ $$
 $$
 \\begin{aligned}
 \\sum_{i=1}^n\\sum_{j=i+1}^n \\gcd(i,j)
-&=\\sum_{i=1}^n\\sum_{j=i+1}^n\\sum_{d\\mid (i,j)}d[gcd(i,j)=d]\\\\
-&=\\sum_{d=1}^nd\\sum_{d\\mid i}^n\\sum_{j=i+1,d\\mid j}^n[gcd(i,j)=d]\\\\
-&=\\sum_{d=1}^nd\\sum_{i=1}^{\\lfloor\\frac nd\\rfloor}\\sum_{j=1}^{i-1}[gcd(i,j)=1]\\\\
+&=\\sum_{i=1}^n\\sum_{j=i+1}^n\\sum_{d\\mid (i,j)}d[\\gcd(i,j)=d]\\\\
+&=\\sum_{d=1}^nd\\sum_{d\\mid i}^n\\sum_{j=i+1,d\\mid j}^n[\\gcd(i,j)=d]\\\\
+&=\\sum_{d=1}^nd\\sum_{i=1}^{\\lfloor\\frac nd\\rfloor}\\sum_{j=1}^{i-1}[\\gcd(i,j)=1]\\\\
 &=\\sum_{d=1}^nd\\sum_{i=1}^{\\lfloor\\frac nd\\rfloor}\\varphi(i)\\\\
 \\end{aligned}
 $$
