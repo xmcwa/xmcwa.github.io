@@ -1,1 +1,30 @@
-<script defer data-domain="noi2077.icu" src="https://plausible.io/js/script.js"></script>
+<!-- Cronitor RUM -->
+<script async src="https://rum.cronitor.io/script.js"></script>
+<script>
+    window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+    cronitor('config', { clientKey: '8ee110bc25ba35bdc9f7e3253b3afc36' });
+</script>
+
+<!--Countly script-->
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/countly-sdk-web@latest/lib/countly.min.js'></script>
+<script type='text/javascript'>
+
+Countly.init({
+// provide your app key that you retrieved from Countly dashboard
+app_key: "a759721337a18c42ebc6c1666dafcf1da002f5d4",
+
+// Provide your server IP or name.
+// If you use your own server, make sure you have https enabled if you use
+// https below.  
+ url: "https://noi2077.icu"
+
+});
+// track sessions automatically
+Countly.track_sessions();
+// track pageviews automatically
+Countly.track_pageview();
+Countly.track_errors()
+Countly.track_clicks();
+Countly.track_scrolls();
+</script>
+
