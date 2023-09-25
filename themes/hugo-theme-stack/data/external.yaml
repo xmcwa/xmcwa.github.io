@@ -35,6 +35,11 @@ KaTeX:
       type: script
       defer: true
 
+MathJax:
+    - src: https://gcore.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+      type: script
+      defer: true
+
 Cactus:
     - src: https://latest.cactus.chat/cactus.js
       integrity:
