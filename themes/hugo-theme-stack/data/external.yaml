@@ -4,20 +4,20 @@ Vibrant:
       type: script
 
 PhotoSwipe:
-    - src: https://npm.onmicrosoft.cn/photoswipe@4.1.3/dist/photoswipe.min.js
+    - src: /npm/photoswipe@4.1.3/dist/photoswipe.min.js
       integrity: sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=
       type: script
       defer: true
 
-    - src: https://npm.onmicrosoft.cn/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js
+    - src: /npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js
       integrity: sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=
       type: script
       defer: true
 
-    - src: https://gcore.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css
+    - src: /npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css
       type: style
 
-    - src: https://gcore.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css
+    - src: /npm/photoswipe@4.1.3/dist/photoswipe.min.css
       type: style
 
 KaTeX:
