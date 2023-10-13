@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on QAQ</title>
+        <link>https://xmcwa.github.io/categories/</link>
+        <description>Recent content in Categories on QAQ</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xmcwa.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>测试</title>
+        <link>https://xmcwa.github.io/categories/test/</link>
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://xmcwa.github.io/categories/test/</guid>
+        <description>&lt;img src="https://xmcwa.github.io/categories/test/cover.jpg" alt="Featured image of post 测试" /&gt;</description>
+        </item>
+        <item>
+        <title>数论</title>
+        <link>https://xmcwa.github.io/categories/number_thoery/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://xmcwa.github.io/categories/number_thoery/</guid>
+        <description>&lt;img src="https://xmcwa.github.io/categories/number_thoery/cover.jpg" alt="Featured image of post 数论" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
