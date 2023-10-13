@@ -1,19 +1,19 @@
-baseurl: https://noi2077.icu
+baseurl: https://xmcwa.github.io
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
-title: JLGxy's Blog
+title: QAQ
 
 languages:
     en:
         languageName: English
-        title: JLGxy's Blog
-        description: Grade 10 OIer
+        title: QAQ
+        description: 天才傲娇少女
         weight: 2
     zh-cn:
         languageName: 中文
-        title: JLGxy's Blog
-        description: 高一 OIer / SDSZ
+        title: QAQ
+        description: 天才傲娇少女
         weight: 1
     # ar:
     #     languageName: عربي
@@ -56,8 +56,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 📑
-        subtitle: 高一 OIer
+        emoji: 
+        subtitle: 天才傲娇少女
         avatar:
             enabled: true
             local: true
@@ -129,13 +129,13 @@ params:
             siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
         giscus:
-            repo: galaxy080123/jlgxy-blog
-            repoID: "R_kgDOJkf02g"
-            category: "Announcements"
-            categoryID: "DIC_kwDOJkf02s4CWkaT"
-            mapping: "pathname"
-            lightTheme: ""
-            darkTheme: ""
+            repo: 
+            repoID: 
+            category: 
+            categoryID: 
+            mapping: 
+            lightTheme: 
+            darkTheme: 
             reactionsEnabled: 1
             emitMetadata: 0
 
@@ -200,7 +200,7 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/galaxy080123
+          url: https://github.com/xmcwa
           params:
               icon: brand-github
 
